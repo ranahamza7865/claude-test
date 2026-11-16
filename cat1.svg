@@ -1,0 +1,26 @@
+<svg width="800" height "600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e6"/>
+      <stop offset="100%" stop-color="#ffe6cc"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  <!-- Persian cat profile -->
+  <path d="M200,100 C150,150 100,200 150,280 S250,350 300,320 S350,280 300,200 Z" fill="#f5f0e8" stroke="#e8d5c7" stroke-width="2"/>
+  <!-- Head -->
+  <circle cx="250" cy="150" r="50" fill="#f5f0e8"/>
+  <!-- Eye -->
+  <circle cx="245" cy="145" r="8" fill="#1a1a2e"/>
+  <!-- Ear -->
+  <polygon points="200,100 230,70 260,100" fill="#f5f0e8"/>
+  <!-- Whiskers -->
+  <line x1="250" y1="200" x2="180" y2="200" stroke="#1a1a2e" stroke-width="1.5"/>
+  <line x1="250" y1="220" x2="320" y2="220" stroke="#1a1a2e" stroke-width="1.5"/>
+  <line x1="250" y1="180" x2="350" y2="180" stroke="#1a1a2e" stroke-width="1.5"/>
+  <line x1="250" y1="200" x2="180" y2="220" stroke="#1a1a2e" stroke-width="1.5"/>
+  <line x1="250" y1="200" x2="320" y2="220" stroke="#1a1a2e" stroke-width="1.5"/>
+  <!-- Title -->
+  <text x="400" y="50" font-family="Georgia, serif" font-size="20" fill="#1a1a2e" text-anchor="middle">Persian Elegance</text>
+</svg>
